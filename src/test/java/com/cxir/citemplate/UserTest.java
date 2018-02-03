@@ -7,12 +7,12 @@ import static org.junit.Assert.*;
 public class UserTest {
 
     @Test
-    public void getName() {
+    public void should_return_name_to_user() {
 
     }
 
     @Test
-    public void setName() {
+    public void should_set_name_to_user() {
 
     }
 
