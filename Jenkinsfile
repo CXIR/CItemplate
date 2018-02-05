@@ -30,8 +30,8 @@ pipeline {
       }
       stage('SonarQube analysis') {
         steps{
-          withSonarQubeEnv('My SonarQube Server') {
-            sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar'
+          withSonarQubeEnv('SonarQube') {
+            sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.5.2:sonar'
           }
         }
       }
