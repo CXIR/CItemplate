@@ -98,4 +98,15 @@ public class User {
         }
         return -1;
     }
+
+    @Override
+    public String toString() {
+        return this.name
+                + " "
+                + this.first
+                + " "
+                + this.age
+                + " "
+                + this.address;
+    }
 }
