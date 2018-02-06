@@ -6,5 +6,5 @@ public class Main {
 
         System.out.println("Atomated");
         System.out.println("Youpi");
-    }
+        System.out.println("Non");
 }
